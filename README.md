@@ -9,8 +9,8 @@ predictions (0 or 1) and labels (0 or 1).
 
 RESEARCH PAPERS USING THIS SOFTWARE:
 - Meszlényi, Regina, Ladislav Peska, Viktor Gál, Zoltán Vidnyánszky, and Krisztian Buza. 2016a. ‘A Model for Classification 
-  Based on the Functional Connectivity Pattern Dynamics of the Brain’. Proceedings of the Network Intelligence Conference (ENIC),
-  2016 Third European. IEEE, 2016.
+  Based on the Functional Connectivity Pattern Dynamics of the Brain’. Proceedings of the Third European Network Intelligence
+  Conference (ENIC), IEEE, 2016.
 - Meszlényi, Regina, Ladislav Peska, Viktor Gál, Zoltán Vidnyánszky, and Krisztian Buza. 2016b. ‘Classification of fMRI Data 
   Using Dynamic Time Warping Based Functional Connectivity Analysis’. Proceedings of the 24th Signal Processing Conference 
   (EUSIPCO),2016.
