@@ -1,7 +1,7 @@
 function [DATA_maxfit,DATA_class_test,FeatureNames_DATA]=crossvalidated_lasso(DATA,label,featureNames,lambda,stand,datasplit_out,datasplit)
 %%crossvalidated_lasso implements LASSO based classification with hyper-parameter learning based on nested cross-validation 
 %INPUT:
-%   DATA: nxm array of instances, every row contains an m dimensional instance
+%   DATA: nx(m+1) array of instances, every row contains the instance ID and an m dimensional instance
 %   label: nx1 vector of original labels (0 or 1)
 %   featureNames: 1xm cell-array, contains the names of the feature-dimensions
 %   lambda: lx1 vector of hyper-parameters for the LASSO
@@ -16,7 +16,7 @@ function [DATA_maxfit,DATA_class_test,FeatureNames_DATA]=crossvalidated_lasso(DA
 %   DATA_class_test: nx1 vector of predicted class labels from the test data of the k folds
 %   FeatureNames_DATA: 1xj structure, contains the names of the relevant features for the k folds of the outer crossvalidation cycle
 %
-%   Regina Meszlényi 2016.07.27.
+%   Regina MeszlÃ©nyi 2016.07.27.
 
 
 %outer cross-validation cycle
